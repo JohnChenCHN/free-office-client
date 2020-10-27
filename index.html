@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>宅职聘</title>
+    <script>
+
+      (function() {
+        var newRem = function() {
+          var html = document.documentElement;
+          html.style.fontSize = html.getBoundingClientRect().width / 16 + 'px';
+        };
+        window.addEventListener('resize', newRem, false);
+        newRem();
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built filesAuthorization will be auto injected -->
+  </body>
+</html>
